@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --nn-font-titles: "Merriweather",serif;
+    --nn-font-text: "Open Sans";
+    --nn-primary-color: rgb(211, 211, 205)   ;
+    --nn-secondary-color: rgb(41, 39, 36)   ;
+    --nn-tertiary-color: rgb(238, 105, 29)   ;
+    
+
+  }
+
+h1, h2, h3 {
+    font-family: var(--nn-font-titles);
+}
+
+p {
+    font-family: var(--nn-font-text);
+}
+
+header {
+    background-color: var(--nn-secondary-color);
+    color: var(--nn-primary-color);
+}
+
+nav {
+    background-color: var(--nn-tertiary-color) ;
+}
+
+button {
+    background-color: var(--nn-tertiary-color);
+}
