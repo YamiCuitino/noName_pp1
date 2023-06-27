@@ -6,6 +6,7 @@
     --nn-primary-color: rgb(211, 211, 205)   ;
     --nn-secondary-color: rgb(41, 39, 36)   ;
     --nn-tertiary-color: rgb(238, 105, 29)   ;
+    --nn-fourthiary-color: rgb(192, 138, 107) ;
     
 
   }
@@ -29,4 +30,12 @@ nav {
 
 button {
     background-color: var(--nn-tertiary-color);
+}
+
+main {
+    background-color: var(--nn-primary-color);
+}
+
+footer {
+    background-color: var(--nn-fourthiary-color);
 }
