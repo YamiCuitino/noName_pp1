@@ -39,3 +39,9 @@ main {
 footer {
     background-color: var(--nn-fourthiary-color);
 }
+ul{
+    list-style: none;
+}
+.bg-sobrenosotros{
+    background-image: url(img/bg3.jpg);
+}
