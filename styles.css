@@ -44,6 +44,13 @@ footer {
     background-color: var(--nn-fourthiary-color);
 }
 
+ul{
+    list-style: none;
+}
+.bg-sobrenosotros{
+    background-image: url(img/bg3.jpg);
+}
+
 .card-plan{
     margin: 10px 2px 10px 0px;
     display: inline;
