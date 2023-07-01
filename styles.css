@@ -39,3 +39,11 @@ main {
 footer {
     background-color: var(--nn-fourthiary-color);
 }
+
+.encabezado {
+    background-image: url(img/bg1.png);
+}
+
+.bg-orange{
+    background-color: var(--nn-tertiary-color);
+}
