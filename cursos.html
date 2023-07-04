@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
     <title>NN - Cursos</title>
 </head>
-<body>
-    <header class='container-fluid bg-black d-flex justify-content-center'>
-        Aprovecha los planes Standard y Essential que disponen de prueba gratuita
-    </header>
+<header class='container-fluid d-flex justify-content-center'>
+  Aprovecha los planes Basic y Standard que disponen de prueba gratuita
+</header>
+<body class="bg-gray">
     <nav>
 
       <ul class="navbar-nav text-center flex-row">
@@ -31,18 +31,19 @@
       </ul>
   </nav>
 
-    <section class="card text-center" >
-      <img class="card-img-top" src="img/bg2.jpg" alt="banner">
-      <div class="card-img-overlay">
-        <h1 class="text-body mt-5"><mark>Cursos disponibles</mark></h1>
-        <h2 class="text-body mt-5"><mark>Selecciona el plan de tu preferencia</mark></h2>
+  <div class="w-100 bg-cursos">
+      <div class="w-100 d-flex py-3">
+          <div class="w-50 py-5 m-auto">
+              <h1 class="p-2 bg-white rounded-4 border border-black text-center text-black">Cursos disponibles</h1>
+              <p class="p-2 bg-white rounded-4 border border-black text-center fs-5 text-black">Selecciona el plan de tu preferencia.</p>
+          </div>
       </div>
-    </section>
+  </div>
 
     <div class="row d-flex justify-content-around mt-5">
         <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="card-plan text-left">
-              <div class="card-body">
+              <div class="card-body ms-2 mt-2">
                 <h4 class="card-title">Free</h4>
                 <h5 class="card-subtitle">Crea fácilmente campañas de correo electrónico y aprende más sobre tus clientes.</h5>
                 <h3 class="card-text font-weight-bold">USD $0</h3>
@@ -55,7 +56,7 @@
                   <li><i class="bi bi-x-lg"></i>  Gerente de campaña</li>
                 </ul>
                 <div class="buy-btn">
-                  <a href="formulario.html"><button>Comprar</button></a>
+                  <a href="formulario.html"><button type="button" class="btn bg-orange btn-outline-dark rounded-4 mx-4">Comprar</button></a>
                 </div>
               </div>
             </div>            
@@ -63,7 +64,7 @@
 
         <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="card-plan text-left">
-              <div class="card-body">
+              <div class="card-body ms-2 mt-2">
                 <h4 class="card-title">Basic</h4>
                 <h5 class="card-subtitle">Envía el contenido adecuado en el momento adecuado con las funciones de prueba y programación.</h5>
                 <h3 class="card-text font-weight-bold">USD $3.25</h3>
@@ -76,14 +77,14 @@
                   <li><i class="bi bi-x-lg"></i>  Gerente de campaña</li>
                 </ul>
                 <div class="buy-btn">
-                  <a href="formulario.html"><button>Comprar</button></a>
+                  <a href="formulario.html"><button type="button" class="btn bg-orange btn-outline-dark rounded-4 mx-4">Comprar</button></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="card-plan text-left">
-              <div class="card-body">
+              <div class="card-body ms-2 mt-2">
                 <h4 class="card-title">Standard</h4>
                 <h5 class="card-subtitle">Vende con aún más personalización, herramientas de optimización y automatizaciones mejoradas.</h5>
                 <h3 class="card-text font-weight-bold">USD $5</h3>
@@ -96,14 +97,14 @@
                   <li><i class="bi bi-check-lg"></i>  Gerente de campaña</li>
                 </ul>
                 <div class="buy-btn">
-                  <a href="formulario.html"><button>Comprar</button></a>
+                  <a href="formulario.html"><button type="button" class="btn bg-orange btn-outline-dark rounded-4 mx-4">Comprar</button></a>
                 </div>  
               </div>
             </div>
           </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="card-plan text-left">
-              <div class="card-body">
+              <div class="card-body ms-2 mt-2">
                 <h4 class="card-title">Premium</h4>
                 <h5 class="card-subtitle">Amplía rápidamente con onboarding específico, contactos ilimitados y asistencia prioritaria; creado para equipos.</h5>
                 <h3 class="card-text font-weight-bold">USD $87.5</h3>
@@ -116,7 +117,7 @@
                   <li><i class="bi bi-check-lg"></i>  Gerente de campaña</li>
                 </ul>
                 <div class="buy-btn">
-                  <a href="formulario.html"><button>Comprar</button></a>
+                  <a href="formulario.html"><button type="button" class="btn bg-orange btn-outline-dark rounded-4 mx-4">Comprar</button></a>
                 </div>
               </div>
             </div>
