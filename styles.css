@@ -7,8 +7,6 @@
     --nn-secondary-color: rgb(41, 39, 36)   ;
     --nn-tertiary-color: rgb(238, 105, 29)   ;
     --nn-fourthiary-color: rgb(192, 138, 107) ;
-    
-
   }
 
 h1, h2, h3 {
@@ -20,12 +18,15 @@ p {
 }
 
 header {
+    font-family: var(--nn-font-text);
     background-color: var(--nn-secondary-color);
     color: var(--nn-primary-color);
 }
 
 nav {
-    background-color: var(--nn-tertiary-color) ;
+    background-color: var(--nn-tertiary-color);
+    font-family: var(--nn-font-text);
+    font-weight: bold;
 }
 
 button {
@@ -44,18 +45,37 @@ footer {
     background-color: var(--nn-fourthiary-color);
 }
 
-.encabezado {
+.bg-productos{
     background-image: url(img/bg1.png);
+    height: 356px;
 }
 
 .bg-orange{
     background-color: var(--nn-tertiary-color);
 }
+
+.bg-sobrenosotros{
+    background-image: url(img/bg3.jpg);
+    height: 356px;
+}
+
+.bg-cursos{
+    background-image: url(img/bg2.jpg);
+    height: 356px;
+}
+
+.bg-gray{
+    background-color: var(--nn-primary-color);
+}
+
 ul{
     list-style: none;
 }
-.bg-sobrenosotros{
-    background-image: url(img/bg3.jpg);
+
+ul li{
+    list-style: none;
+    height: 80px;
+    justify-content: center;
 }
 
 .card-plan{
@@ -63,7 +83,7 @@ ul{
     display: inline;
     float: left;
     width: 100%;
-    background-color: var(--nn-primary-color);
+    background-color: white;
     transition: 0.5s;
     border-radius: 10px;
 }
@@ -80,13 +100,6 @@ ul{
 .card-subtitle{
     height: 140px;
     color: var(--nn-tertiary-color);
-}
-
-
-ul li{
-    list-style: none;
-    height: 50px;
-    justify-content: center;
 }
 
 .bi-check-lg{
@@ -108,4 +121,8 @@ ul li{
 .logo{
     width: 50px;
     height: 50px;
+}
+
+.sn-card:hover{
+    box-shadow: 0 1px 20px var(--nn-secondary-color);   
 }
