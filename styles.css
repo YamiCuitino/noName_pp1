@@ -72,7 +72,7 @@ ul{
     list-style: none;
 }
 
-ul li{
+.lista-productos li{
     list-style: none;
     height: 80px;
     justify-content: center;
